@@ -66,6 +66,7 @@ tmtags
 *.ids
 */*.iml
 *.iml
+*.ipr
 .idea/*
 .idea
 
