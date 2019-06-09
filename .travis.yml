@@ -1,0 +1,27 @@
+language: bash
+dist: xenial
+#language: java
+
+sudo: required
+
+notifications:
+  webhooks: https://hook.bearychat.com/=bwBrp/travis/93d020f67c0a20049466b93a0211692c
+
+services:
+  - docker
+
+branches:
+  only:
+    - master
+    - dev
+    - release
+
+jobs:
+  include:
+    - stage: build
+      script:
+        - ./gradlew clean build
+
+stages:
+  - name: build
+    if: branch = dev

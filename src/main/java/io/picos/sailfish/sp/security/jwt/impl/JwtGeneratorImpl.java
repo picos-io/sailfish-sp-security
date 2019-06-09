@@ -1,8 +1,8 @@
-package io.picos.helloworld.jwt.impl;
+package io.picos.sailfish.sp.security.jwt.impl;
 
 import io.jsonwebtoken.Jwts;
-import io.picos.helloworld.jwt.JwtGenerator;
-import io.picos.helloworld.jwt.JwtOptions;
+import io.picos.sailfish.sp.security.jwt.JwtGenerator;
+import io.picos.sailfish.sp.security.jwt.JwtOptions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 

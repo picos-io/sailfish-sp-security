@@ -1,4 +1,4 @@
-package io.picos.helloworld.jwt;
+package io.picos.sailfish.sp.security.jwt;
 
 public interface JwtOptions {
 

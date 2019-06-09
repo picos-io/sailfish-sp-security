@@ -1,4 +1,4 @@
-package io.picos.helloworld.jwt;
+package io.picos.sailfish.sp.security.jwt;
 
 import com.fasterxml.jackson.databind.JavaType;
 import com.fasterxml.jackson.databind.ObjectMapper;

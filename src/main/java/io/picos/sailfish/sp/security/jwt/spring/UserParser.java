@@ -1,6 +1,6 @@
-package io.picos.helloworld.jwt.spring;
+package io.picos.sailfish.sp.security.jwt.spring;
 
-import io.picos.helloworld.jwt.exception.JwtTokenMissingException;
+import io.picos.sailfish.sp.security.jwt.exception.JwtTokenMissingException;
 import org.springframework.security.core.userdetails.UserDetails;
 
 import javax.servlet.http.HttpServletRequest;

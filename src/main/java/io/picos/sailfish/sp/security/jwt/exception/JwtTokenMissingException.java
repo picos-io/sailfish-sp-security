@@ -1,4 +1,4 @@
-package io.picos.helloworld.jwt.exception;
+package io.picos.sailfish.sp.security.jwt.exception;
 
 public class JwtTokenMissingException extends RuntimeException {
 
