@@ -1,0 +1,21 @@
+security:
+  basic:
+    enabled: false
+
+info:
+  app:
+    name: helloworld
+
+server:
+  port: ${SERVER_PORT:80}
+  sessionTimeout: ${SERVER_SESSION_TIMEOUT:36000}
+  connection-timeout: ${SERVER_CONN_TIMEOUT:30000}
+  tomcat:
+    accept-count: ${TOMCAT_ACCEPT_COUNT:1000}
+    max-threads: ${TOMCAT_MAX_THREADS:1000}
+    min-spare-threads: ${TOMCAT_MIN_SPARE_THREADS:10}
+    max-connections: ${TOMCAT_MAX_CONNS:10000}
+
+spring:
+  profiles:
+    active: production

@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: helloworld
+
+logging:
+  file: helloworld.log
+  level:
+    root: INFO
